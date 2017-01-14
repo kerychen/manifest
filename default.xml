@@ -18,6 +18,12 @@
            fetch="https://github.com/Zephyr-OS"
            revision="zephyr-N" />
 
+  <remote  name="devices"
+           fetch="https://github.com/ZephyrOS-Devices" />
+
+  <remote name="bb"
+           fetch="https://bitbucket.org" />
+
 <!-- BEGIN AOSP-CAF -->
   <project name="platform_build" path="build" remote="zephyr" >
   <copyfile src="core/root.mk" dest="Makefile" />
