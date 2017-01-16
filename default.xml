@@ -528,10 +528,10 @@
 <!-- END CODEAURORA -->
 
 <!-- BEGIN ZEPHYR -->
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="zephyr" />	
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="zephyr" />
-  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" groups="pdk-fs" remote="zephyr" />
-  <project path="external/DUtils" name="platform_external_DUtils" groups="pdk-fs" remote="zephyr" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="zephyr" />	
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="zephyr" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="zephyr" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="zephyr" />
   <project name="vendor_zos" path="vendor/zos" remote="zephyr" >
   <linkfile src="tools/sync.sh" dest="sync.sh" />
   </project>
