@@ -28,7 +28,7 @@
   <project name="platform_build" path="build" remote="zephyr" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="platform_build_kati" path="build/kati" remote="aosp-caf" groups="pdk,tradefed" />
+  <project name="platform_build_kati" path="build/kati" remote="aosp-caf" />
   <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
   <project name="platform_art" path="art" remote="aosp-caf" />
   <project name="platform_bionic" path="bionic" remote="aosp-caf" />
@@ -532,7 +532,9 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="zephyr" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" groups="pdk-fs" remote="zephyr" />
   <project path="external/DUtils" name="platform_external_DUtils" groups="pdk-fs" remote="zephyr" />
-  <project name="vendor_zos" path="vendor/zos" remote="zephyr" />
+  <project name="vendor_zos" path="vendor/zos" remote="zephyr" >
+  <linkfile src="tools/sync.sh" dest="sync.sh" />
+  </project>
   <project name="manifest" path="manifest" remote="zephyr" />
   <project path="packages/apps/Music" name="platform_packages_apps_Music" remote="zephyr" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="zephyr" />
