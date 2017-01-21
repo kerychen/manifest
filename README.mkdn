@@ -15,7 +15,7 @@ repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
 ``` 
 Since syncing CAF is a pain, just use the sync script to update zephyr repos alone
 ````bash
-./sync
+./sync.sh
 ```
 Finally to build: 
 ````bash 
