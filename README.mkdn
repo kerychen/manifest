@@ -1,9 +1,9 @@
 <img src="https://raw.githubusercontent.com/Zephyr-OS/manifest/zos6.0.1/zephyrOS-logo.png">
 
-ZephyrOS Nougat [WIP] 
+ZephyrOS Nougat 
 ===========
 
-This rom is based on the AOSP-RRO project and thanks to that team
+This rom is based on the AOSP-CAF project 
 
 Download the Zephyr-OS source with this link
 ````bash
@@ -11,11 +11,20 @@ repo init -u git://github.com/Zephyr-OS/manifest.git -b zephyr-N
 ````
 Then to sync up: 
 ````bash 
-repo sync 
+repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
 ``` 
+Since syncing CAF is a pain, just use the sync script to update zephyr repos alone
+````bash
+./sync
+```
 Finally to build: 
 ````bash 
 . build/envsetup.sh
-brunch device
+lunch device
+make bacon 
+```
+To get the changelog with the final product:
+````bash
+export ZEPHYR_CHANGELOG = true
 ```
 
