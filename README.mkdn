@@ -25,6 +25,6 @@ make bacon
 ```
 To get the changelog with the final product:
 ````bash
-export ZEPHYR_CHANGELOG = true
+export ZEPHYR_CHANGELOG=true
 ```
 
