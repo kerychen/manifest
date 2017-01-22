@@ -46,8 +46,6 @@
   <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="aosp-caf" />
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosp-caf" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
-  <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
-  <project name="platform_frameworks_av" path="frameworks/av" remote="aosp-caf" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="aosp-caf" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="aosp-caf" />
@@ -335,7 +333,6 @@
   <project groups="pdk" name="platform/external/sonic" path="external/sonic"/>
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox"/>
   <project groups="pdk" name="platform/external/speex" path="external/speex"/>
-  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite"/>
   <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools"/>
   <project groups="pdk" name="platform/external/srtp" path="external/srtp"/>
   <project groups="pdk" name="platform/external/strace" path="external/strace"/>
@@ -551,11 +548,14 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="zephyr" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="zephyr" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="zephyr" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="zephyr" />
   <project path="system/core" name="platform_system_core" remote="zephyr" />
   <project path="art" name="platform_art" remote="zephyr" />
   <project path="bionic" name="platform_bionic" remote="zephyr" />
   <project path="external/skia" name="platform_external_skia" remote="zephyr" />
   <project path="external/libpng" name="platform_external_libpng" remote="zephyr" />
+  <project path="external/sqlite" name="platform_external_sqlite" remote="zephyr" />
+  <project path="external/zlib" name="platform_external_zlib" remote="zephyr" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="zephyr" />
   <project name="vendor_zos" path="vendor/zos" remote="zephyr" >
   <linkfile src="tools/sync.sh" dest="sync.sh" />
