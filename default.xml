@@ -216,7 +216,6 @@
   <project groups="pdk" name="platform/external/javassist" path="external/javassist"/>
   <project groups="pdk" name="platform/external/jcommander" path="external/jcommander"/>
   <project groups="pdk" name="platform/external/jdiff" path="external/jdiff"/>
-  <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc"/>
   <project groups="pdk" name="platform/external/jetty" path="external/jetty"/>
   <project groups="pdk" name="platform/external/jhead" path="external/jhead"/>
   <project groups="pdk" name="platform/external/jmdns" path="external/jmdns"/>
@@ -555,6 +554,7 @@
   <project path="external/libpng" name="platform_external_libpng" remote="zephyr" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="zephyr" />
   <project path="external/zlib" name="platform_external_zlib" remote="zephyr" />
+  <project path="external/jemalloc" name="platform_external_jemalloc" remote="zephyr" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="zephyr" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="zephyr" />
   <project name="vendor_zos" path="vendor/zos" remote="zephyr" >
