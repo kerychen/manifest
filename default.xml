@@ -76,7 +76,7 @@
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="laos" />
   <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="laos" />
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="laos" />
-  <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="laos" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="laos" />
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8916" />
@@ -213,6 +213,7 @@
   <project groups="pdk" name="platform/external/jacoco" path="external/jacoco"/>
   <project groups="pdk" name="platform/external/jarjar" path="external/jarjar"/>
   <project groups="pdk" name="platform/external/javasqlite" path="external/javasqlite"/>
+  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite"/>
   <project groups="pdk" name="platform/external/javassist" path="external/javassist"/>
   <project groups="pdk" name="platform/external/jcommander" path="external/jcommander"/>
   <project groups="pdk" name="platform/external/jdiff" path="external/jdiff"/>
@@ -401,7 +402,6 @@
   <project groups="generic_fs" name="platform/ndk" path="ndk" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="android-framework.lnx.2.0.r5-rel"/>
@@ -552,7 +552,6 @@
   <project path="bionic" name="platform_bionic" remote="zephyr" />
   <project path="external/skia" name="platform_external_skia" remote="zephyr" />
   <project path="external/libpng" name="platform_external_libpng" remote="zephyr" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="zephyr" />
   <project path="external/zlib" name="platform_external_zlib" remote="zephyr" />
   <project path="external/jemalloc" name="platform_external_jemalloc" remote="zephyr" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="zephyr" />
