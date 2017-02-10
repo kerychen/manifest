@@ -536,6 +536,9 @@
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" revision="opensource-tools.lnx.1.0.r5-rel"/>
 <!-- END CODEAURORA -->
 
+<!-- SCLANG -->
+<project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" path="vendor/qcom/sdclang-3.8/linux-x86" revision="nougat-caf" />
+
 <!-- BEGIN ZEPHYR -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="zephyr" />	
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="zephyr" />
