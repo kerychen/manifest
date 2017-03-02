@@ -103,7 +103,7 @@
 <!-- END LINEAGE-OS -->
 
 <!-- BEGIN SUBSTRATUM -->
-  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+  <project name="Substratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
 <!-- ENG SUBSTRATUM -->
 
 <!-- BEGIN CODEAURORA -->
